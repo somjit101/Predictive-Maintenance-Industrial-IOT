@@ -16,5 +16,5 @@ On Performing EDA, a lot of multi-collinearity among the sensor readings is obse
 ### Prediction Model Used : 
 Decision-Tree based Classifier
 
-#### Details about the file : Repair_Sensor_Deviations.xlsm
+#### Details about the file : [Repair_Sensor_Deviations.xlsm](Sensor_Data_EDA/Repair_Sensor_Deviations.xlsm)
 Here, we filter out only those rows from the dataset where the pump is malfunctioning/needs repair status. Then we subtract the mean value of individual sensor readings during the 'normal' working condition of the pump from the respective columns. Thus, we obtain the deviations of the sensor readings from the normal means for each timestamp where the pump is malfunctioning. The values have been color-coded and we clearly see the sensors with highest entropy contributing to the decision boundary of classification and those which do not contain any useful intelligence for predictive maintenance and can be dropped. 
