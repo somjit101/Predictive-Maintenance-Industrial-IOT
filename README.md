@@ -5,7 +5,7 @@ Illustrating a typical Predictive Maintenance use case in an Industrial IoT Scen
 ## About the [Dataset](https://www.kaggle.com/nphantawee/pump-sensor-data)
 * Contains 220314 readings by 51 sensors taken at an interval of 1 minute over a period of 5 months for a large-scale industrial pump. 
 * Each sensor makes some important measurement used to determine the working condition of the pump, like vibration, operative voltage, current drawn, heat generated, RPM etc.
-* The column 'machine_status' indicates the current working condition of the pump. If it is 0, it indicates that the pump is working as expected. If it is 1, the pump is malfunctioning and need repair. 
+* The column 'machine_status' indicates the current working condition of the pump. If it is 0, it indicates that the pump is working as expected. If it is 1, the pump is malfunctioning and needs repair. 
 
 ## Objective 
 Given the past and current set of sensor readings **predict failure of the pump**. 
